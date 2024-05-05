@@ -1,3 +1,4 @@
 .cz.toml
 .github
 pyproject.toml
+setup.py
