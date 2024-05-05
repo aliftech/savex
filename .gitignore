@@ -2,3 +2,5 @@
 .github
 pyproject.toml
 setup.py
+dist/
+savex.egg-info
