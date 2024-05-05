@@ -39,6 +39,12 @@ Savex caters to developers and organizations constructing web applications that 
 
 In forthcoming iterations, Savex aims to integrate advanced security features, including real-time threat detection, enhanced file analysis techniques, and amalgamation with security frameworks for comprehensive protection against evolving cyber threats. Furthermore, the project will concentrate on augmenting usability and performance to deliver an even more robust and user-friendly solution.
 
+## Instalation
+
+```bash
+pip install savex
+```
+
 ## Quick Start
 
 ```python
