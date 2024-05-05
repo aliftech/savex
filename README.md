@@ -39,6 +39,25 @@ Savex caters to developers and organizations constructing web applications that 
 
 In forthcoming iterations, Savex aims to integrate advanced security features, including real-time threat detection, enhanced file analysis techniques, and amalgamation with security frameworks for comprehensive protection against evolving cyber threats. Furthermore, the project will concentrate on augmenting usability and performance to deliver an even more robust and user-friendly solution.
 
+## Quick Start
+
+```python
+def main():
+    # Create a mock file object
+    class MockFile:
+        def __init__(self, name):
+            self.name = name
+
+    # Test valid file name
+    valid_file = MockFile("foto.jpg.php")
+    print(file_filter(valid_file))
+
+
+if __name__ == "__main__":
+    main()
+
+```
+
 ## Contributing
 
 Kindly read our [Contributing Guide](CONTRIBUTING.md) to familiarize yourself with ToolJet's development process, how to suggest bug fixes and improvements, and the steps for building and testing your changes. <br>

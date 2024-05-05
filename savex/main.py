@@ -4,8 +4,12 @@ import base64
 
 
 def file_filter(file):
-    filename = file.name
-    return sanitize_file_name(filename, file)
+    try:
+        filename = file.name
+        return sanitize_file_name(filename, file)
+    except Exception as e:
+        print("An error occurred:", e)
+        return False
 
 
 def sanitize_file_name(filename, file):
@@ -47,11 +51,11 @@ def sanitize_file_name(filename, file):
     ]
 
     with open(file.name, 'rb') as f:
-        file_content = f.read().decode('utf-8')
+        file_content = f.read()
         for pattern in suspicious_patterns:
-            if pattern in file_content:
+            if pattern.encode() in file_content:
                 return False  # Suspicious content found
-            elif 'data:image/' in file_content:
+            elif b'data:image/' in file_content:
                 return detect_backdoor(file_content)
             else:
                 return filename
