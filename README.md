@@ -9,7 +9,6 @@ SaveX is a Python library crafted to bolster the security of file uploads within
 ![GitHub contributors](https://img.shields.io/github/contributors/aliftech/savex)
 ![GitHub Repo stars](https://img.shields.io/github/stars/aliftech/savex)
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/aliftech/savex/master)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/aliftech/savex)
 ![GitHub release (with filter)](https://img.shields.io/github/v/release/aliftech/savex)
 ![GitHub License](https://img.shields.io/github/license/aliftech/savex)
 
